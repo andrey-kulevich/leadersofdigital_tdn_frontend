@@ -8,6 +8,7 @@ import {Button, Grid, List, ListItem, Paper} from "@material-ui/core";
 import {TaskInterface} from "../interfaces/TaskInterface";
 import {TaskItem} from "../components/TaskItem";
 import {Map} from "../components/Map";
+import CustomSnackbar from "../components/CustomSnackbar";
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -45,11 +46,12 @@ const useStyles = makeStyles((theme) => ({
     }
 }));
 
-export default function HomePage() {
+export default function HomeSnowblowerPage() {
     const classes = useStyles();
     const user = useContext(UserContext)
     const {request} = useHttp()
     const [tasks, setTasks] = useState([] as TaskInterface[])
+    const [openSnack, setOpenSnack] = useState<boolean>(false)
 
     useEffect(() => {
         request(requests.getTasksByUserId.url(user.user.id), requests.getTasksByUserId.method, null, user.user.token)
@@ -78,6 +80,7 @@ export default function HomePage() {
                             variant={'outlined'}
                             color="primary"
                             className={classes.button}
+                            onClick={() => setOpenSnack(true)}
                         >
                             НАЧАЛ РАБОТУ
                         </Button>
@@ -87,6 +90,7 @@ export default function HomePage() {
                             variant={'outlined'}
                             color="primary"
                             className={classes.button}
+                            onClick={() => setOpenSnack(true)}
                         >
                             ЗАКОНЧИЛ РАБОТУ
                         </Button>
@@ -96,6 +100,7 @@ export default function HomePage() {
                             variant={'outlined'}
                             color="primary"
                             className={classes.button}
+                            onClick={() => setOpenSnack(true)}
                         >
                             ВОЗВРАЩАЮСЬ НА БАЗУ
                         </Button>
@@ -105,12 +110,19 @@ export default function HomePage() {
                             variant={'outlined'}
                             color="primary"
                             className={classes.button}
+                            onClick={() => setOpenSnack(true)}
                         >
                             ТЕХНИЧЕСКИЙ ПЕРЕРЫВ
                         </Button>
                     </Grid>
                 </Grid>
             </Paper>
+            <CustomSnackbar
+                open={openSnack}
+                handleClose={() => setOpenSnack(false)}
+                message={"Информация передана диспетчеру"}
+                kind={"info"}
+            />
         </Container>
     );
 }

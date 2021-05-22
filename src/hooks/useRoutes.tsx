@@ -9,7 +9,8 @@ import {useHttp} from "./useHttp";
 import {WaitingPage} from "../pages/WaitingPage";
 import {UserContext} from "../store/UserProvider";
 import {UserResponseInterface} from "../interfaces/UserInterface";
-import HomePage from "../pages/HomePage";
+import HomeSnowblowerPage from "../pages/HomeSnowblowerPage";
+import HomeFieldEngineerPage from "../pages/HomeFieldEngineerPage";
 
 export const useRoutes = () => {
     const user = useContext(UserContext)
@@ -39,10 +40,13 @@ export const useRoutes = () => {
                     </>:
             <>
                 {user.user.isAuth ? <>
-                    <Route exact path={routes.toHome}>
-                        <HomePage/>
+                    <Route exact path={routes.toHomeSnowblower}>
+                        <HomeSnowblowerPage/>
                     </Route>
-                    <Redirect to={routes.toHome}/>
+                    <Route exact path={routes.toHomeFieldEngineer}>
+                        <HomeFieldEngineerPage/>
+                    </Route>
+                    <Redirect to={routes.toHomeFieldEngineer}/>
                 </>:<>
                     <Route exact path={routes.toLogin}>
                         <Login/>

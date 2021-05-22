@@ -21,7 +21,7 @@ export const TaskItem = ({task} : {task: TaskInterface}) => {
     return (
         <Paper elevation={3} className={classes.root}>
             <Grid container direction='row' justify="center" className={classes.root}>
-                <Grid item xs={4} className={classes.text}><span>Квадрант - {task.runwayUnit.name}</span></Grid>
+                <Grid item xs={4} className={classes.text}><span>Квадрат - {task.runwayUnit.name}</span></Grid>
                 <Grid item xs={5} className={classes.text}><span>Обледенение - {task.runwayUnit.icing}</span></Grid>
                 <Grid item xs={2} className={classes.text}><span>Снег - {task.runwayUnit.snowLevel}</span></Grid>
             </Grid>

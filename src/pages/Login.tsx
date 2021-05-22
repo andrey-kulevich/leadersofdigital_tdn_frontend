@@ -59,7 +59,7 @@ export default function Login() {
                 null, btoa(`${authCredentials.login}:${authCredentials.password}`))
             doctor.login(data as UserResponseInterface,
                 btoa(`${authCredentials.login}:${authCredentials.password}`), saveUser)
-            history.push(routes.toHome)
+            history.push(routes.toHomeSnowblower)
         } catch (e) {}
     }
 

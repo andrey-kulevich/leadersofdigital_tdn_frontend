@@ -1,5 +1,6 @@
 export const routes = {
-    toHome: '/home',
+    toHomeSnowblower: '/home/snowblower',
+    toHomeFieldEngineer: '/home/fieldEngineer',
     toLogin: '/login',
     toWaitingPage: '/waiting',
 }
