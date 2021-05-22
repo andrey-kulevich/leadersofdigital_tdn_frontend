@@ -15,9 +15,9 @@ export interface UserResponseInterface {
     patronymic: string,
     phone: string,
     post: string,
-    role: {
+    roles: [{
         id: number,
         name: string,
         description: string
-    }
+    }]
 }

@@ -19,6 +19,7 @@ export const useRoutes = () => {
         const token = localStorage.getItem('user')
         request(requests.login.url, requests.login.method, null, token)
             .then(data => {
+                console.log(data)
                 user.login(data as UserResponseInterface, token? token : '', true)
             })
             .catch( () => {
