@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/leadersofdigital_tdn_frontend/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/leadersofdigital_tdn_frontend/static/js/main.33d7427e.chunk.js",
-    "main.js.map": "/leadersofdigital_tdn_frontend/static/js/main.33d7427e.chunk.js.map",
+    "main.js": "/leadersofdigital_tdn_frontend/static/js/main.adf42d61.chunk.js",
+    "main.js.map": "/leadersofdigital_tdn_frontend/static/js/main.adf42d61.chunk.js.map",
     "runtime-main.js": "/leadersofdigital_tdn_frontend/static/js/runtime-main.df0d2f8e.js",
     "runtime-main.js.map": "/leadersofdigital_tdn_frontend/static/js/runtime-main.df0d2f8e.js.map",
-    "static/js/2.84f7bfff.chunk.js": "/leadersofdigital_tdn_frontend/static/js/2.84f7bfff.chunk.js",
-    "static/js/2.84f7bfff.chunk.js.map": "/leadersofdigital_tdn_frontend/static/js/2.84f7bfff.chunk.js.map",
+    "static/js/2.a17cb351.chunk.js": "/leadersofdigital_tdn_frontend/static/js/2.a17cb351.chunk.js",
+    "static/js/2.a17cb351.chunk.js.map": "/leadersofdigital_tdn_frontend/static/js/2.a17cb351.chunk.js.map",
     "index.html": "/leadersofdigital_tdn_frontend/index.html",
     "static/css/main.6dea0f05.chunk.css.map": "/leadersofdigital_tdn_frontend/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.84f7bfff.chunk.js.LICENSE.txt": "/leadersofdigital_tdn_frontend/static/js/2.84f7bfff.chunk.js.LICENSE.txt",
+    "static/js/2.a17cb351.chunk.js.LICENSE.txt": "/leadersofdigital_tdn_frontend/static/js/2.a17cb351.chunk.js.LICENSE.txt",
     "static/media/airport.47805ce5.jpg": "/leadersofdigital_tdn_frontend/static/media/airport.47805ce5.jpg",
     "static/media/logo.6f1dc9fc.png": "/leadersofdigital_tdn_frontend/static/media/logo.6f1dc9fc.png"
   },
   "entrypoints": [
     "static/js/runtime-main.df0d2f8e.js",
-    "static/js/2.84f7bfff.chunk.js",
+    "static/js/2.a17cb351.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.33d7427e.chunk.js"
+    "static/js/main.adf42d61.chunk.js"
   ]
 }
