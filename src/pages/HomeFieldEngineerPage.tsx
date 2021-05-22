@@ -4,9 +4,8 @@ import Container from '@material-ui/core/Container';
 import {useHttp} from "../hooks/useHttp";
 import {requests} from "../helpers/requests";
 import {UserContext} from "../store/UserProvider";
-import {Button, FormControlLabel, Grid, List, ListItem, Paper, Radio, RadioGroup, Typography} from "@material-ui/core";
+import {Button, FormControlLabel, Grid, Paper, Radio, RadioGroup, Typography} from "@material-ui/core";
 import {TaskInterface} from "../interfaces/TaskInterface";
-import {TaskItem} from "../components/TaskItem";
 import {Map} from "../components/Map";
 import CustomSnackbar from "../components/CustomSnackbar";
 
