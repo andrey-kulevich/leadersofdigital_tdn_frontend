@@ -46,7 +46,7 @@ export const useRoutes = () => {
                     <Route exact path={routes.toHomeFieldEngineer}>
                         <HomeFieldEngineerPage/>
                     </Route>
-                    <Redirect to={routes.toHomeFieldEngineer}/>
+                    <Redirect to={routes.toHomeSnowblower}/>
                 </>:<>
                     <Route exact path={routes.toLogin}>
                         <Login/>
