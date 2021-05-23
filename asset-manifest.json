@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/leadersofdigital_tdn_frontend/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/leadersofdigital_tdn_frontend/static/js/main.adf42d61.chunk.js",
-    "main.js.map": "/leadersofdigital_tdn_frontend/static/js/main.adf42d61.chunk.js.map",
+    "main.js": "/leadersofdigital_tdn_frontend/static/js/main.3679d724.chunk.js",
+    "main.js.map": "/leadersofdigital_tdn_frontend/static/js/main.3679d724.chunk.js.map",
     "runtime-main.js": "/leadersofdigital_tdn_frontend/static/js/runtime-main.df0d2f8e.js",
     "runtime-main.js.map": "/leadersofdigital_tdn_frontend/static/js/runtime-main.df0d2f8e.js.map",
     "static/js/2.a17cb351.chunk.js": "/leadersofdigital_tdn_frontend/static/js/2.a17cb351.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.df0d2f8e.js",
     "static/js/2.a17cb351.chunk.js",
     "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.adf42d61.chunk.js"
+    "static/js/main.3679d724.chunk.js"
   ]
 }
